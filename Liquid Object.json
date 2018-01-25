@@ -1,0 +1,2230 @@
+{
+	/*
+	// Place your snippets for HTML Liquid here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+
+
+// // // // // // // // // OBJECT // // // // // // // // //
+
+
+// // // // // // OBJECTS - GLOBAL OBJECTS
+"All Products": {
+		"prefix": "all_products",
+		"body": "all_products",
+		"description": "Theme object: all_products (Shopify Liquid Template Snippets)"
+	}
+	
+	"Canonical Url": {
+		"prefix": "canonical_url",
+		"body": "canonical_url",
+		"description": "Theme object: canonical_url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Current Page": {
+		"prefix": "current_page",
+		"body": "current_page",
+		"description": "Theme object: current_page (Shopify Liquid Template Snippets)"
+	}
+	
+	"Linklists": {
+		"prefix": "linklists",
+		"body": "linklists",
+		"description": "Theme object: linklists (Shopify Liquid Template Snippets)"
+	}
+	
+	"Handle": {
+		"prefix": "handle",
+		"body": "handle",
+		"description": "Theme object: handle (Shopify Liquid Template Snippets)"
+	}
+	
+	"Pages": {
+		"prefix": "pages",
+		"body": "pages",
+		"description": "Theme object: pages (Shopify Liquid Template Snippets)"
+	}
+	
+	"Page Description": {
+		"prefix": "page_description",
+		"body": "page_description",
+		"description": "Theme object: page_description (Shopify Liquid Template Snippets)"
+	}
+	
+	"Page Title": {
+		"prefix": "page_title",
+		"body": "page_title",
+		"description": "Theme object: page_title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Request": {
+		"prefix": "request",
+		"body": "request",
+		"description": "Theme object: request (Shopify Liquid Template Snippets)"
+	}
+	
+	"Scripts": {
+		"prefix": "scripts",
+		"body": "scripts",
+		"description": "Theme object: scripts (Shopify Liquid Template Snippets)"
+	}
+	
+	"Settings": {
+		"prefix": "settings",
+		"body": "settings",
+		"description": "Theme object: settings (Shopify Liquid Template Snippets)"
+	}
+
+	"Template": {
+		"prefix": "template",
+		"body": "template",
+		"description": "Theme object: template (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - ADDRESS
+	"Address Name": {
+		"prefix": "address.name",
+		"body": "address.name",
+		"description": "Theme object: address.name (Shopify Liquid Template Snippets)"
+	}
+
+	"Address First Name": {
+		"prefix": "address.first_name",
+		"body": "address.first_name",
+		"description": "Theme object: address.first_name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Last Name": {
+		"prefix": "address.last_name",
+		"body": "address.last_name",
+		"description": "Theme object: address.last_name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Address1": {
+		"prefix": "address.address1",
+		"body": "address.address1",
+		"description": "Theme object: address.address1 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Address2": {
+		"prefix": "address.address2",
+		"body": "address.address2",
+		"description": "Theme object: address.address2 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Street": {
+		"prefix": "address.street",
+		"body": "address.street",
+		"description": "Theme object: address.street (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Company": {
+		"prefix": "address.company",
+		"body": "address.company",
+		"description": "Theme object: address.company (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address City": {
+		"prefix": "address.city",
+		"body": "address.city",
+		"description": "Theme object: address.city (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Province": {
+		"prefix": "address.province",
+		"body": "address.province",
+		"description": "Theme object: address.province (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Province Code": {
+		"prefix": "address.province_code",
+		"body": "address.province_code",
+		"description": "Theme object: address.province_code (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Zip": {
+		"prefix": "address.zip",
+		"body": "address.zip",
+		"description": "Theme object: address.zip (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Country": {
+		"prefix": "address.country",
+		"body": "address.country",
+		"description": "Theme object: address.country (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Country Code": {
+		"prefix": "address.country_code",
+		"body": "address.country_code",
+		"description": "Theme object: address.country_code (Shopify Liquid Template Snippets)"
+	}
+	
+	"Address Phone": {
+		"prefix": "address.phone",
+		"body": "address.phone",
+		"description": "Theme object: address.phone (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - ARTICLE
+	"Aticle Author": {
+		"prefix": "article.author",
+		"body": "article.author",
+		"description": "Theme object: article.author (Shopify Liquid Template Snippets)"
+	}
+
+	"Article Comments": {
+		"prefix": "article.comments",
+		"body": "article.comments",
+		"description": "Theme object: article.comments (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Comments Count": {
+		"prefix": "article.comments_count",
+		"body": "article.comments_count",
+		"description": "Theme object: article.comments_count (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Comments Enabled?": {
+		"prefix": "article.comments_enabled?",
+		"body": "article.comments_enabled?",
+		"description": "Theme object: article.comments_enabled? (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Comment Post Url": {
+		"prefix": "article.comment_post_url",
+		"body": "article.comment_post_url",
+		"description": "Theme object: article.comment_post_url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Content": {
+		"prefix": "article.content",
+		"body": "article.content",
+		"description": "Theme object: article.content (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Created At": {
+		"prefix": "article.created_at",
+		"body": "article.created_at",
+		"description": "Theme object: article.created_at (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Excerpt": {
+		"prefix": "article.excerpt",
+		"body": "article.excerpt",
+		"description": "Theme object: article.excerpt (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Id": {
+		"prefix": "article.id",
+		"body": "article.id",
+		"description": "Theme object: article.id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Image": {
+		"prefix": "article.image",
+		"body": "article.image",
+		"description": "Theme object: article.image (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Image Src": {
+		"prefix": "article.image.src",
+		"body": "article.image.src",
+		"description": "Theme object: article.image.src (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Moderated?": {
+		"prefix": "article.moderated?",
+		"body": "article.moderated?",
+		"description": "Theme object: article.moderated? (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Published At": {
+		"prefix": "article.published_at",
+		"body": "article.published_at",
+		"description": "Theme object: article.published_at (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Tags": {
+		"prefix": "article.tags",
+		"body": "article.tags",
+		"description": "Theme object: article.tags (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Title": {
+		"prefix": "article.title",
+		"body": "article.title",
+		"description": "Theme object: article.title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article Url": {
+		"prefix": "article.url",
+		"body": "article.url",
+		"description": "Theme object: article.url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article User Account Owner": {
+		"prefix": "article.user.account_owner",
+		"body": "article.user.account_owner",
+		"description": "Theme object: article.user.account_owner (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article User Bio": {
+		"prefix": "article.user.bio",
+		"body": "article.user.bio",
+		"description": "Theme object: article.user.bio (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article User Email": {
+		"prefix": "article.user.email",
+		"body": "article.user.email",
+		"description": "Theme object: article.user.email (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article User First Name": {
+		"prefix": "article.user.first_name",
+		"body": "article.user.first_name",
+		"description": "Theme object: article.user.first_name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article User Last Name": {
+		"prefix": "article.user.last_name",
+		"body": "article.user.last_name",
+		"description": "Theme object: article.user.last_name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Article User Homepage": {
+		"prefix": "article.user.homepage",
+		"body": "article.user.homepage",
+		"description": "Theme object: article.user.homepage (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - BLOG
+	"Blog All Tags": {
+		"prefix": "blog.all_tags",
+		"body": "blog.all_tags",
+		"description": "Theme object: blog.all_tags (Shopify Liquid Template Snippets)"
+	}
+
+	"Blog Articles": {
+		"prefix": "blog.articles",
+		"body": "blog.articles",
+		"description": "Theme object: blog.articles (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog Articles Count": {
+		"prefix": "blog.articles_count",
+		"body": "blog.articles_count",
+		"description": "Theme object: blog.articles_count (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog Comments Enabled?": {
+		"prefix": "blog.comments_enabled?",
+		"body": "blog.comments_enabled?",
+		"description": "Theme object: blog.comments_enabled? (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog Handle": {
+		"prefix": "blog.handle",
+		"body": "blog.handle",
+		"description": "Theme object: blog.handle (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog Id": {
+		"prefix": "blog.id",
+		"body": "blog.id",
+		"description": "Theme object: blog.id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog Moderated?": {
+		"prefix": "blog.moderated?",
+		"body": "blog.moderated?",
+		"description": "Theme object: blog.moderated? (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog Next-Article": {
+		"prefix": "blog.next-article",
+		"body": "blog.next-article",
+		"description": "Theme object: blog.next-article (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog Previous-Article": {
+		"prefix": "blog.previous-article",
+		"body": "blog.previous-article",
+		"description": "Theme object: blog.previous-article (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog Tags": {
+		"prefix": "blog.tags",
+		"body": "blog.tags",
+		"description": "Theme object: blog.tags (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog Title": {
+		"prefix": "blog.title",
+		"body": "blog.title",
+		"description": "Theme object: blog.title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Blog URL": {
+		"prefix": "blog.url",
+		"body": "blog.url",
+		"description": "Theme object: blog.url (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - CART
+	"Cart Attributes": {
+		"prefix": "cart.attributes",
+		"body": "cart.attributes",
+		"description": "Theme object: cart.attributes (Shopify Liquid Template Snippets)"
+	}
+
+	"Cart Item Count": {
+		"prefix": "cart.item_count",
+		"body": "cart.item_count",
+		"description": "Theme object: cart.item_count (Shopify Liquid Template Snippets)"
+	}
+	
+	"Cart Items": {
+		"prefix": "cart.items",
+		"body": "cart.items",
+		"description": "Theme object: cart.items (Shopify Liquid Template Snippets)"
+	}
+	
+	"Cart Note": {
+		"prefix": "cart.note",
+		"body": "cart.note",
+		"description": "Theme object: cart.note (Shopify Liquid Template Snippets)"
+	}
+	
+	"Cart Total Price": {
+		"prefix": "cart.total_price",
+		"body": "cart.total_price",
+		"description": "Theme object: cart.total_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Cart Total Weight": {
+		"prefix": "cart.total_weight",
+		"body": "cart.total_weight",
+		"description": "Theme object: cart.total_weight (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - CHECKOUT
+	"Checkout Applied Gift Cards": {
+		"prefix": "checkout.applied_gift_cards",
+		"body": "checkout.applied_gift_cards",
+		"description": "Theme object: checkout.applied_gift_cards (Shopify Liquid Template Snippets)"
+	}
+
+		"Checkout Attributes": {
+		"prefix": "checkout.attributes",
+		"body": "checkout.attributes",
+		"description": "Theme object: checkout.attributes (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Billing Address": {
+		"prefix": "checkout.billing_address",
+		"body": "checkout.billing_address",
+		"description": "Theme object: checkout.billing_address (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Buyer Accepts Marketing": {
+		"prefix": "checkout.buyer_accepts_marketing",
+		"body": "checkout.buyer_accepts_marketing",
+		"description": "Theme object: checkout.buyer_accepts_marketing (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Discounts": {
+		"prefix": "checkout.discounts",
+		"body": "checkout.discounts",
+		"description": "Theme object: checkout.discounts (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Discounts Amount": {
+		"prefix": "checkout.discounts_amount",
+		"body": "checkout.discounts_amount",
+		"description": "Theme object: checkout.discounts_amount (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Discounts Savings": {
+		"prefix": "checkout.discounts_savings",
+		"body": "checkout.discounts_savings",
+		"description": "Theme object: checkout.discounts_savings (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Email": {
+		"prefix": "checkout.email",
+		"body": "checkout.email",
+		"description": "Theme object: checkout.email (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Gift Cards Amount": {
+		"prefix": "checkout.gift_cards_amount",
+		"body": "checkout.gift_cards_amount",
+		"description": "Theme object: checkout.gift_cards_amount (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Id": {
+		"prefix": "checkout.id",
+		"body": "checkout.id",
+		"description": "Theme object: checkout.id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Line Items": {
+		"prefix": "checkout.line_items",
+		"body": "checkout.line_items",
+		"description": "Theme object: checkout.line_items (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Name": {
+		"prefix": "checkout.name",
+		"body": "checkout.name",
+		"description": "Theme object: checkout.name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Note": {
+		"prefix": "checkout.note",
+		"body": "checkout.note",
+		"description": "Theme object: checkout.note (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Order": {
+		"prefix": "checkout.order",
+		"body": "checkout.order",
+		"description": "Theme object: checkout.order (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Order Id": {
+		"prefix": "checkout.order_id",
+		"body": "checkout.order_id",
+		"description": "Theme object: checkout.order_id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Order Name": {
+		"prefix": "checkout.order_name",
+		"body": "checkout.order_name",
+		"description": "Theme object: checkout.order_name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Order Number": {
+		"prefix": "checkout.order_number",
+		"body": "checkout.order_number",
+		"description": "Theme object: checkout.order_number (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Requires Shipping": {
+		"prefix": "checkout.requires_shipping",
+		"body": "checkout.requires_shipping",
+		"description": "Theme object: checkout.requires_shipping (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Shipping Address": {
+		"prefix": "checkout.shipping_address",
+		"body": "checkout.shipping_address",
+		"description": "Theme object: checkout.shipping_address (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Shipping Method": {
+		"prefix": "checkout.shipping_method",
+		"body": "checkout.shipping_method",
+		"description": "Theme object: checkout.shipping_method (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Shipping Methods": {
+		"prefix": "checkout.shipping_methods",
+		"body": "checkout.shipping_methods",
+		"description": "Theme object: checkout.shipping_methods (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Shipping Price": {
+		"prefix": "checkout.shipping_price",
+		"body": "checkout.shipping_price",
+		"description": "Theme object: checkout.shipping_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Subtotal Price": {
+		"prefix": "checkout.subtotal_price",
+		"body": "checkout.subtotal_price",
+		"description": "Theme object: checkout.subtotal_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Tax Lines": {
+		"prefix": "checkout.tax_lines",
+		"body": "checkout.tax_lines",
+		"description": "Theme object: checkout.tax_lines (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Tax Price": {
+		"prefix": "checkout.tax_price",
+		"body": "checkout.tax_price",
+		"description": "Theme object: checkout.tax_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Total Price": {
+		"prefix": "checkout.total_price",
+		"body": "checkout.total_price",
+		"description": "Theme object: checkout.total_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Checkout Transactions": {
+		"prefix": "checkout.transactions",
+		"body": "checkout.transactions",
+		"description": "Theme object: checkout.transactions (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - COLLECTION
+	"Collection All Types": {
+		"prefix": "collection.all_types",
+		"body": "collection.all_types",
+		"description": "Theme object: collection.all_types (Shopify Liquid Template Snippets)"
+	}
+
+	"Collection All Vendors": {
+		"prefix": "collection.all_vendors",
+		"body": "collection.all_vendors",
+		"description": "Theme object: collection.all_vendors (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Current Type": {
+		"prefix": "collection.current_type",
+		"body": "collection.current_type",
+		"description": "Theme object: collection.current_type (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Current Vendor": {
+		"prefix": "collection.current_vendor",
+		"body": "collection.current_vendor",
+		"description": "Theme object: collection.current_vendor (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Default Sort By": {
+		"prefix": "collection.default_sort_by",
+		"body": "collection.default_sort_by",
+		"description": "Theme object: collection.default_sort_by (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Description": {
+		"prefix": "collection.description",
+		"body": "collection.description",
+		"description": "Theme object: collection.description (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Handle": {
+		"prefix": "collection.handle",
+		"body": "collection.handle",
+		"description": "Theme object: collection.handle (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Id": {
+		"prefix": "collection.id",
+		"body": "collection.id",
+		"description": "Theme object: collection.id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Image": {
+		"prefix": "collection.image",
+		"body": "collection.image",
+		"description": "Theme object: collection.image (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Image Src": {
+		"prefix": "collection.image.src",
+		"body": "collection.image.src",
+		"description": "Theme object: collection.image.src (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Next Product": {
+		"prefix": "collection.next_product",
+		"body": "collection.next_product",
+		"description": "Theme object: collection.next_product (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Previous Product": {
+		"prefix": "collection.previous_product",
+		"body": "collection.previous_product",
+		"description": "Theme object: collection.previous_product (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Products": {
+		"prefix": "collection.products",
+		"body": "collection.products",
+		"description": "Theme object: collection.products (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Products Count": {
+		"prefix": "collection.products_count",
+		"body": "collection.products_count",
+		"description": "Theme object: collection.products_count (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Template Suffix": {
+		"prefix": "collection.template_suffix",
+		"body": "collection.template_suffix",
+		"description": "Theme object: collection.template_suffix (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Title": {
+		"prefix": "collection.title",
+		"body": "collection.title",
+		"description": "Theme object: collection.title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection Tags": {
+		"prefix": "collection.tags",
+		"body": "collection.tags",
+		"description": "Theme object: collection.tags (Shopify Liquid Template Snippets)"
+	}
+	
+	"Collection URL": {
+		"prefix": "collection.url",
+		"body": "collection.url",
+		"description": "Theme object: collection.url (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - COMMENT
+	"Comment Id": {
+		"prefix": "comment.id",
+		"body": "comment.id",
+		"description": "Theme object: comment.id (Shopify Liquid Template Snippets)"
+	}
+
+	"Comment Author": {
+		"prefix": "comment.author",
+		"body": "comment.author",
+		"description": "Theme object: comment.author (Shopify Liquid Template Snippets)"
+	}
+	
+	"Comment Email": {
+		"prefix": "comment.email",
+		"body": "comment.email",
+		"description": "Theme object: comment.email (Shopify Liquid Template Snippets)"
+	}
+	
+	"Comment Content": {
+		"prefix": "comment.content",
+		"body": "comment.content",
+		"description": "Theme object: comment.content (Shopify Liquid Template Snippets)"
+	}
+	
+	"Comment Status": {
+		"prefix": "comment.status",
+		"body": "comment.status",
+		"description": "Theme object: comment.status (Shopify Liquid Template Snippets)"
+	}
+	
+	"Comment Url": {
+		"prefix": "comment.url",
+		"body": "comment.url",
+		"description": "Theme object: comment.url (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - COUNTRY OPTION TAGS
+	"Country Option Tags": {
+		"prefix": "ountry_option_tags",
+		"body": "country_option_tags",
+		"description": "Theme object: country_option_tags (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - CURRENT TAGS
+	"Inside Collection Liquid": {
+		"prefix": "inside collection.liquid",
+		"body": "comment.urlcountry_option_tagsInside collection.liquid",
+		"description": "Theme object: comment.urlcountry_option_tagsInside collection.liquid (Shopify Liquid Template Snippets)"
+	}
+
+	"Inside Blog Liquid": {
+		"prefix": "inside blog.liquid",
+		"body": "inside blog.liquid",
+		"description": "Theme object: Inside blog.liquid (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - CUSTOMER ADDRESS
+	"Customer Address First Name": {
+		"prefix": "customer_address.first_name",
+		"body": "customer_address.first_name",
+		"description": "Theme object: customer_address.first_name (Shopify Liquid Template Snippets)"
+	}
+
+	"Customer Address Last-Name": {
+		"prefix": "customer_address.last-name",
+		"body": "customer_address.last-name",
+		"description": "Theme object: customer_address.last-name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Address1": {
+		"prefix": "customer_address.address1",
+		"body": "customer_address.address1",
+		"description": "Theme object: customer_address.address1 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Address2": {
+		"prefix": "customer_address.address2",
+		"body": "customer_address.address2",
+		"description": "Theme object: customer_address.address2 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Street": {
+		"prefix": "customer_address.street",
+		"body": "customer_address.street",
+		"description": "Theme object: customer_address.street (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Company": {
+		"prefix": "customer_address.company",
+		"body": "customer_address.company",
+		"description": "Theme object: customer_address.company (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address City": {
+		"prefix": "customer_address.city",
+		"body": "customer_address.city",
+		"description": "Theme object: customer_address.city (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Province": {
+		"prefix": "customer_address.province",
+		"body": "customer_address.province",
+		"description": "Theme object: customer_address.province (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Province Code": {
+		"prefix": "customer_address.province_code",
+		"body": "customer_address.province_code",
+		"description": "Theme object: customer_address.province_code (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Zip": {
+		"prefix": "customer_address.zip",
+		"body": "customer_address.zip",
+		"description": "Theme object: customer_address.zip (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Country": {
+		"prefix": "customer_address.country",
+		"body": "customer_address.country",
+		"description": "Theme object: customer_address.country (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Country Code": {
+		"prefix": "customer_address.country_code",
+		"body": "customer_address.country_code",
+		"description": "Theme object: customer_address.country_code (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Address Phone": {
+		"prefix": "customer_address.phone",
+		"body": "customer_address.phone",
+		"description": "Theme object: customer_address.phone (Shopify Liquid Template Snippets)"
+	}
+
+	"Customer Address Id": {
+		"prefix": "customer_address.id",
+		"body": "customer_address.id",
+		"description": "Theme object: customer_address.id (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - CUSTOMER
+
+	"Customer Accepts Marketing": {
+		"prefix": "customer.accepts_marketing",
+		"body": "customer.accepts_marketing",
+		"description": "Theme object: customer.accepts_marketing (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Addresses": {
+		"prefix": "customer.addresses",
+		"body": "customer.addresses",
+		"description": "Theme object: customer.addresses (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Addresses Count": {
+		"prefix": "customer.addresses_count",
+		"body": "customer.addresses_count",
+		"description": "Theme object: customer.addresses_count (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Default Address": {
+		"prefix": "customer.default_address",
+		"body": "customer.default_address",
+		"description": "Theme object: customer.default_address (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Email": {
+		"prefix": "customer.email",
+		"body": "customer.email",
+		"description": "Theme object: customer.email (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer First Name": {
+		"prefix": "customer.first_name",
+		"body": "customer.first_name",
+		"description": "Theme object: customer.first_name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Has Account": {
+		"prefix": "customer.has_account",
+		"body": "customer.has_account",
+		"description": "Theme object: customer.has_account (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Id": {
+		"prefix": "customer.id",
+		"body": "customer.id",
+		"description": "Theme object: customer.id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Last Name": {
+		"prefix": "customer.last_name",
+		"body": "customer.last_name",
+		"description": "Theme object: customer.last_name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Last Order": {
+		"prefix": "customer.last_order",
+		"body": "customer.last_order",
+		"description": "Theme object: customer.last_order (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Name": {
+		"prefix": "customer.name",
+		"body": "customer.name",
+		"description": "Theme object: customer.name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Orders": {
+		"prefix": "customer.orders",
+		"body": "customer.orders",
+		"description": "Theme object: customer.orders (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Orders Count": {
+		"prefix": "customer.orders_count",
+		"body": "customer.orders_count",
+		"description": "Theme object: customer.orders_count (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Tags": {
+		"prefix": "customer.tags",
+		"body": "customer.tags",
+		"description": "Theme object: customer.tags (Shopify Liquid Template Snippets)"
+	}
+	
+	"Customer Total Spent": {
+		"prefix": "customer.total_spent",
+		"body": "customer.total_spent",
+		"description": "Theme object: customer.total_spent (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - DISCOUNT
+	"Discount Id": {
+		"prefix": "discount.id",
+		"body": "discount.id",
+		"description": "Theme object: discount.id (Shopify Liquid Template Snippets)"
+	}
+
+	"Discount Title": {
+		"prefix": "discount.title",
+		"body": "discount.title",
+		"description": "Theme object: discount.title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Discount Code": {
+		"prefix": "discount.code",
+		"body": "discount.code",
+		"description": "Theme object: discount.code (Shopify Liquid Template Snippets)"
+	}
+	
+	"Discount Amount": {
+		"prefix": "discount.amount",
+		"body": "discount.amount",
+		"description": "Theme object: discount.amount (Shopify Liquid Template Snippets)"
+	}
+	
+	"Discount Total Amount": {
+		"prefix": "discount.total_amount",
+		"body": "discount.total_amount",
+		"description": "Theme object: discount.total_amount (Shopify Liquid Template Snippets)"
+	}
+	
+	"Discount Savings": {
+		"prefix": "discount.savings",
+		"body": "discount.savings",
+		"description": "Theme object: discount.savings (Shopify Liquid Template Snippets)"
+	}
+	
+	"Discount Total Savings": {
+		"prefix": "discount.total_savings",
+		"body": "discount.total_savings",
+		"description": "Theme object: discount.total_savings (Shopify Liquid Template Snippets)"
+	}
+	
+	"Discount Type": {
+		"prefix": "discount.type",
+		"body": "discount.type",
+		"description": "Theme object: discount.type (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - FORLOOP
+	"Forloop First": {
+		"prefix": "forloop.first",
+		"body": "forloop.first",
+		"description": "Theme object: forloop.first (Shopify Liquid Template Snippets)"
+	}
+
+	"Forloop Index": {
+		"prefix": "forloop.index",
+		"body": "forloop.index",
+		"description": "Theme object: forloop.index (Shopify Liquid Template Snippets)"
+	}
+	
+	"Forloop Index0": {
+		"prefix": "forloop.index0",
+		"body": "forloop.index0",
+		"description": "Theme object: forloop.index0 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Forloop Last": {
+		"prefix": "forloop.last",
+		"body": "forloop.last",
+		"description": "Theme object: forloop.last (Shopify Liquid Template Snippets)"
+	}
+	
+	"Forloop Rindex": {
+		"prefix": "forloop.rindex",
+		"body": "forloop.rindex",
+		"description": "Theme object: forloop.rindex (Shopify Liquid Template Snippets)"
+	}
+	
+	"Forloop Rindex0": {
+		"prefix": "forloop.rindex0",
+		"body": "forloop.rindex0",
+		"description": "Theme object: forloop.rindex0 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Forloop Length": {
+		"prefix": "forloop.length",
+		"body": "forloop.length",
+		"description": "Theme object: forloop.length (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - FORM
+	"Form Author": {
+		"prefix": "form.author",
+		"body": "form.author",
+		"description": "Theme object: form.author (Shopify Liquid Template Snippets)"
+	}
+
+	"Form Body": {
+		"prefix": "form.body",
+		"body": "form.body",
+		"description": "Theme object: form.body (Shopify Liquid Template Snippets)"
+	}
+	
+	"Form Email": {
+		"prefix": "form.email",
+		"body": "form.email",
+		"description": "Theme object: form.email (Shopify Liquid Template Snippets)"
+	}
+	
+	"Form Errors": {
+		"prefix": "form.errors",
+		"body": "form.errors",
+		"description": "Theme object: form.errors (Shopify Liquid Template Snippets)"
+	}
+	
+	"Form Posted Successfully?": {
+		"prefix": "form.posted_successfully?",
+		"body": "form.posted_successfully?",
+		"description": "Theme object: form.posted_successfully? (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - FULFILLMENT
+	"Fulfillment Tracking Company": {
+		"prefix": "fulfillment.tracking_company",
+		"body": "fulfillment.tracking_company",
+		"description": "Theme object: fulfillment.tracking_company (Shopify Liquid Template Snippets)"
+	}
+
+	"Fulfillment Tracking Number": {
+		"prefix": "fulfillment.tracking_number",
+		"body": "fulfillment.tracking_number",
+		"description": "Theme object: fulfillment.tracking_number (Shopify Liquid Template Snippets)"
+	}
+	
+	"Fulfillment Tracking Url": {
+		"prefix": "fulfillment.tracking_url",
+		"body": "fulfillment.tracking_url",
+		"description": "Theme object: fulfillment.tracking_url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Fulfillment Fulfillment Line Items": {
+		"prefix": "fulfillment.fulfillment_line_items",
+		"body": "fulfillment.fulfillment_line_items",
+		"description": "Theme object: fulfillment.fulfillment_line_items (Shopify Liquid Template Snippets)"
+	}
+	
+	"Fulfillment Item Count": {
+		"prefix": "fulfillment.item_count",
+		"body": "fulfillment.item_count",
+		"description": "Theme object: fulfillment.item_count (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - GIFTCARD
+	"Gift Card Balance": {
+		"prefix": "gift_card.balance",
+		"body": "gift_card.balance",
+		"description": "Theme object: gift_card.balance (Shopify Liquid Template Snippets)"
+	}
+
+	"Gift Card Code": {
+		"prefix": "gift_card.code",
+		"body": "gift_card.code",
+		"description": "Theme object: gift_card.code (Shopify Liquid Template Snippets)"
+	}
+	
+	"Gift Card Currency": {
+		"prefix": "gift_card.currency",
+		"body": "gift_card.currency",
+		"description": "Theme object: gift_card.currency (Shopify Liquid Template Snippets)"
+	}
+	
+	"Gift Card Customer": {
+		"prefix": "gift_card.customer",
+		"body": "gift_card.customer",
+		"description": "Theme object: gift_card.customer (Shopify Liquid Template Snippets)"
+	}
+	
+	"Gift Card Enabled": {
+		"prefix": "gift_card.enabled",
+		"body": "gift_card.enabled",
+		"description": "Theme object: gift_card.enabled (Shopify Liquid Template Snippets)"
+	}
+	
+	"Gift Card Expired": {
+		"prefix": "gift_card.expired",
+		"body": "gift_card.expired",
+		"description": "Theme object: gift_card.expired (Shopify Liquid Template Snippets)"
+	}
+	
+	"Gift Card Expires On": {
+		"prefix": "gift_card.expires_on",
+		"body": "gift_card.expires_on",
+		"description": "Theme object: gift_card.expires_on (Shopify Liquid Template Snippets)"
+	}
+	
+	"Gift Card Initial Value": {
+		"prefix": "gift_card.initial_value",
+		"body": "gift_card.initial_value",
+		"description": "Theme object: gift_card.initial_value (Shopify Liquid Template Snippets)"
+	}
+	
+	"Gift Card Properties": {
+		"prefix": "gift_card.properties",
+		"body": "gift_card.properties",
+		"description": "Theme object: gift_card.properties (Shopify Liquid Template Snippets)"
+	}
+	
+	"Gift Card Url": {
+		"prefix": "gift_card.url",
+		"body": "gift_card.url",
+		"description": "Theme object: gift_card.url (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - LINE ITEM
+	"Line Item Fulfillment": {
+		"prefix": "line_item.fulfillment",
+		"body": "line_item.fulfillment",
+		"description": "Theme object: line_item.fulfillment (Shopify Liquid Template Snippets)"
+	}
+
+	"Line Item Grams": {
+		"prefix": "line_item.grams",
+		"body": "line_item.grams",
+		"description": "Theme object: line_item.grams (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Key": {
+		"prefix": "line_item.key",
+		"body": "line_item.key",
+		"description": "Theme object: line_item.key (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Id (Deprecated)": {
+		"prefix": "line_item.id (deprecated)",
+		"body": "line_item.id (deprecated)",
+		"description": "Theme object: line_item.id (deprecated) (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Image": {
+		"prefix": "line_item.image",
+		"body": "line_item.image",
+		"description": "Theme object: line_item.image (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Line Price": {
+		"prefix": "line_item.line_price",
+		"body": "line_item.line_price",
+		"description": "Theme object: line_item.line_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Price": {
+		"prefix": "line_item.price",
+		"body": "line_item.price",
+		"description": "Theme object: line_item.price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Product": {
+		"prefix": "line_item.product",
+		"body": "line_item.product",
+		"description": "Theme object: line_item.product (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Product Id": {
+		"prefix": "line_item.product_id",
+		"body": "line_item.product_id",
+		"description": "Theme object: line_item.product_id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Properties": {
+		"prefix": "line_item.properties",
+		"body": "line_item.properties",
+		"description": "Theme object: line_item.properties (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Quantity": {
+		"prefix": "line_item.quantity",
+		"body": "line_item.quantity",
+		"description": "Theme object: line_item.quantity (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Requires Shipping": {
+		"prefix": "line_item.requires_shipping",
+		"body": "line_item.requires_shipping",
+		"description": "Theme object: line_item.requires_shipping (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Sku": {
+		"prefix": "line_item.sku",
+		"body": "line_item.sku",
+		"description": "Theme object: line_item.sku (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Taxable": {
+		"prefix": "line_item.taxable",
+		"body": "line_item.taxable",
+		"description": "Theme object: line_item.taxable (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Title": {
+		"prefix": "line_item.title",
+		"body": "line_item.title",
+		"description": "Theme object: line_item.title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Type": {
+		"prefix": "line_item.type",
+		"body": "line_item.type",
+		"description": "Theme object: line_item.type (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Url": {
+		"prefix": "line_item.url",
+		"body": "line_item.url",
+		"description": "Theme object: line_item.url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Variant": {
+		"prefix": "line_item.variant",
+		"body": "line_item.variant",
+		"description": "Theme object: line_item.variant (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Variant Id": {
+		"prefix": "line_item.variant_id",
+		"body": "line_item.variant_id",
+		"description": "Theme object: line_item.variant_id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Line Item Vendor": {
+		"prefix": "line_item.vendor",
+		"body": "line_item.vendor",
+		"description": "Theme object: line_item.vendor (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - LINK
+	"Link Active": {
+		"prefix": "link.active",
+		"body": "link.active",
+		"description": "Theme object: link.active (Shopify Liquid Template Snippets)"
+	}
+
+	"Link Object": {
+		"prefix": "link.object",
+		"body": "link.object",
+		"description": "Theme object: link.object (Shopify Liquid Template Snippets)"
+	}
+	
+	"Link Title": {
+		"prefix": "link.title",
+		"body": "link.title",
+		"description": "Theme object: link.title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Link Type": {
+		"prefix": "link.type",
+		"body": "link.type",
+		"description": "Theme object: link.type (Shopify Liquid Template Snippets)"
+	}
+	
+	"Url": {
+		"prefix": "url",
+		"body": "url",
+		"description": "Theme object: url (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - LINKLIST
+	"List Handle": {
+		"prefix": "linklist.handle",
+		"body": "linklist.handle",
+		"description": "Theme object: linklist.handle (Shopify Liquid Template Snippets)"
+	}
+
+	"Linklist Id": {
+		"prefix": "linklist.id",
+		"body": "linklist.id",
+		"description": "Theme object: linklist.id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Linklist Links": {
+		"prefix": "linklist.links",
+		"body": "linklist.links",
+		"description": "Theme object: linklist.links (Shopify Liquid Template Snippets)"
+	}
+	
+	"Linklist Title": {
+		"prefix": "linklist.title",
+		"body": "linklist.title",
+		"description": "Theme object: linklist.title (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - ORDER
+	"Order Billing Address": {
+		"prefix": "order.billing_address",
+		"body": "order.billing_address",
+		"description": "Theme object: order.billing_address (Shopify Liquid Template Snippets)"
+	}
+
+	"Order Cancelled": {
+		"prefix": "order.cancelled",
+		"body": "order.cancelled",
+		"description": "Theme object: order.cancelled (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Cancelled At": {
+		"prefix": "order.cancelled_at",
+		"body": "order.cancelled_at",
+		"description": "Theme object: order.cancelled_at (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Cancel Reason": {
+		"prefix": "order.cancel_reason",
+		"body": "order.cancel_reason",
+		"description": "Theme object: order.cancel_reason (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Cancel Reason Label": {
+		"prefix": "order.cancel_reason_label",
+		"body": "order.cancel_reason_label",
+		"description": "Theme object: order.cancel_reason_label (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Created At": {
+		"prefix": "order.created_at",
+		"body": "order.created_at",
+		"description": "Theme object: order.created_at (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Customer": {
+		"prefix": "order.customer",
+		"body": "order.customer",
+		"description": "Theme object: order.customer (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Customer Url": {
+		"prefix": "order.customer_url",
+		"body": "order.customer_url",
+		"description": "Theme object: order.customer_url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Discounts": {
+		"prefix": "order.discounts",
+		"body": "order.discounts",
+		"description": "Theme object: order.discounts (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Email": {
+		"prefix": "order.email",
+		"body": "order.email",
+		"description": "Theme object: order.email (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Financial Status": {
+		"prefix": "order.financial_status",
+		"body": "order.financial_status",
+		"description": "Theme object: order.financial_status (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Financial Status Label": {
+		"prefix": "order.financial_status_label",
+		"body": "order.financial_status_label",
+		"description": "Theme object: order.financial_status_label (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Fulfillment Status": {
+		"prefix": "order.fulfillment_status",
+		"body": "order.fulfillment_status",
+		"description": "Theme object: order.fulfillment_status (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Fulfillment Status Label": {
+		"prefix": "order.fulfillment_status_label",
+		"body": "order.fulfillment_status_label",
+		"description": "Theme object: order.fulfillment_status_label (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Line Items": {
+		"prefix": "order.line_items",
+		"body": "order.line_items",
+		"description": "Theme object: order.line_items (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Location": {
+		"prefix": "order.location",
+		"body": "order.location",
+		"description": "Theme object: order.location (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Order Status Url": {
+		"prefix": "order.order_status_url",
+		"body": "order.order_status_url",
+		"description": "Theme object: order.order_status_url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Name": {
+		"prefix": "order.name",
+		"body": "order.name",
+		"description": "Theme object: order.name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Note": {
+		"prefix": "order.note",
+		"body": "order.note",
+		"description": "Theme object: order.note (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Order Number": {
+		"prefix": "order.order_number",
+		"body": "order.order_number",
+		"description": "Theme object: order.order_number (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Shipping Address": {
+		"prefix": "order.shipping_address",
+		"body": "order.shipping_address",
+		"description": "Theme object: order.shipping_address (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Shipping Methods": {
+		"prefix": "order.shipping_methods",
+		"body": "order.shipping_methods",
+		"description": "Theme object: order.shipping_methods (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Shipping Price": {
+		"prefix": "order.shipping_price",
+		"body": "order.shipping_price",
+		"description": "Theme object: order.shipping_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Subtotal Price": {
+		"prefix": "order.subtotal_price",
+		"body": "order.subtotal_price",
+		"description": "Theme object: order.subtotal_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Tax Lines": {
+		"prefix": "order.tax_lines",
+		"body": "order.tax_lines",
+		"description": "Theme object: order.tax_lines (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Tax Price": {
+		"prefix": "order.tax_price",
+		"body": "order.tax_price",
+		"description": "Theme object: order.tax_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Total Price": {
+		"prefix": "order.total_price",
+		"body": "order.total_price",
+		"description": "Theme object: order.total_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Order Transactions": {
+		"prefix": "order.transactions",
+		"body": "order.transactions",
+		"description": "Theme object: order.transactions (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - PAGE
+	"Page Author": {
+		"prefix": "page.author",
+		"body": "page.author",
+		"description": "Theme object: page.author (Shopify Liquid Template Snippets)"
+	}
+
+	"Page Content": {
+		"prefix": "page.content",
+		"body": "page.content",
+		"description": "Theme object: page.content (Shopify Liquid Template Snippets)"
+	}
+	
+	"Page Handle": {
+		"prefix": "page.handle",
+		"body": "page.handle",
+		"description": "Theme object: page.handle (Shopify Liquid Template Snippets)"
+	}
+	
+	"Page Id": {
+		"prefix": "page.id",
+		"body": "page.id",
+		"description": "Theme object: page.id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Page Published At": {
+		"prefix": "page.published_at",
+		"body": "page.published_at",
+		"description": "Theme object: page.published_at (Shopify Liquid Template Snippets)"
+	}
+	
+	"Page Template Suffix": {
+		"prefix": "page.template_suffix",
+		"body": "page.template_suffix",
+		"description": "Theme object: page.template_suffix (Shopify Liquid Template Snippets)"
+	}
+	
+	"Page Title": {
+		"prefix": "page.title",
+		"body": "page.title",
+		"description": "Theme object: page.title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Page Url": {
+		"prefix": "page.url",
+		"body": "page.url",
+		"description": "Theme object: page.url (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - PAGINATE
+	"Paginate Current Page": {
+		"prefix": "paginate.current_page",
+		"body": "paginate.current_page",
+		"description": "Theme object: paginate.current_page (Shopify Liquid Template Snippets)"
+	}
+
+	"Paginate Current Offset": {
+		"prefix": "paginate.current_offset",
+		"body": "paginate.current_offset",
+		"description": "Theme object: paginate.current_offset (Shopify Liquid Template Snippets)"
+	}
+	
+	"Paginate Items": {
+		"prefix": "paginate.items",
+		"body": "paginate.items",
+		"description": "Theme object: paginate.items (Shopify Liquid Template Snippets)"
+	}
+	
+	"Paginate Parts": {
+		"prefix": "paginate.parts",
+		"body": "paginate.parts",
+		"description": "Theme object: paginate.parts (Shopify Liquid Template Snippets)"
+	}
+	
+	"Paginate Next": {
+		"prefix": "paginate.next",
+		"body": "paginate.next",
+		"description": "Theme object: paginate.next (Shopify Liquid Template Snippets)"
+	}
+	
+	"Paginate Previous": {
+		"prefix": "paginate.previous",
+		"body": "paginate.previous",
+		"description": "Theme object: paginate.previous (Shopify Liquid Template Snippets)"
+	}
+	
+	"Paginate Page Size": {
+		"prefix": "paginate.page_size",
+		"body": "paginate.page_size",
+		"description": "Theme object: paginate.page_size (Shopify Liquid Template Snippets)"
+	}
+	
+	"Paginate Pages": {
+		"prefix": "paginate.pages",
+		"body": "paginate.pages",
+		"description": "Theme object: paginate.pages (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - PRODUCT
+"Product Available": {
+		"prefix": "product.available",
+		"body": "product.available",
+		"description": "Theme object: product.available (Shopify Liquid Template Snippets)"
+	}
+
+	"Product Collections": {
+		"prefix": "product.collections",
+		"body": "product.collections",
+		"description": "Theme object: product.collections (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Compare At Price Max": {
+		"prefix": "product.compare_at_price_max",
+		"body": "product.compare_at_price_max",
+		"description": "Theme object: product.compare_at_price_max (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Compare At Price Min": {
+		"prefix": "product.compare_at_price_min",
+		"body": "product.compare_at_price_min",
+		"description": "Theme object: product.compare_at_price_min (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Compare At Price Varies": {
+		"prefix": "product.compare_at_price_varies",
+		"body": "product.compare_at_price_varies",
+		"description": "Theme object: product.compare_at_price_varies (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Content": {
+		"prefix": "product.content",
+		"body": "product.content",
+		"description": "Theme object: product.content (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Description": {
+		"prefix": "product.description",
+		"body": "product.description",
+		"description": "Theme object: product.description (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Featured Image": {
+		"prefix": "product.featured_image",
+		"body": "product.featured_image",
+		"description": "Theme object: product.featured_image (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product First Available Variant": {
+		"prefix": "product.first_available_variant",
+		"body": "product.first_available_variant",
+		"description": "Theme object: product.first_available_variant (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Handle": {
+		"prefix": "product.handle",
+		"body": "product.handle",
+		"description": "Theme object: product.handle (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Id": {
+		"prefix": "product.id",
+		"body": "product.id",
+		"description": "Theme object: product.id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Images": {
+		"prefix": "product.images",
+		"body": "product.images",
+		"description": "Theme object: product.images (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Image": {
+		"prefix": "product.image",
+		"body": "product.image",
+		"description": "Theme object: product.image (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Options": {
+		"prefix": "product.options",
+		"body": "product.options",
+		"description": "Theme object: product.options (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Price": {
+		"prefix": "product.price",
+		"body": "product.price",
+		"description": "Theme object: product.price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Price Max": {
+		"prefix": "product.price_max",
+		"body": "product.price_max",
+		"description": "Theme object: product.price_max (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Price Min": {
+		"prefix": "product.price_min",
+		"body": "product.price_min",
+		"description": "Theme object: product.price_min (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Price Varies": {
+		"prefix": "product.price_varies",
+		"body": "product.price_varies",
+		"description": "Theme object: product.price_varies (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Selected Variant": {
+		"prefix": "product.selected_variant",
+		"body": "product.selected_variant",
+		"description": "Theme object: product.selected_variant (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Selected Or First Available Variant": {
+		"prefix": "product.selected_or_first_available_variant",
+		"body": "product.selected_or_first_available_variant",
+		"description": "Theme object: product.selected_or_first_available_variant (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Tags": {
+		"prefix": "product.tags",
+		"body": "product.tags",
+		"description": "Theme object: product.tags (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Template Suffix": {
+		"prefix": "product.template_suffix",
+		"body": "product.template_suffix",
+		"description": "Theme object: product.template_suffix (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Title": {
+		"prefix": "product.title",
+		"body": "product.title",
+		"description": "Theme object: product.title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Type": {
+		"prefix": "product.type",
+		"body": "product.type",
+		"description": "Theme object: product.type (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Url": {
+		"prefix": "product.url",
+		"body": "product.url",
+		"description": "Theme object: product.url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Variants": {
+		"prefix": "product.variants",
+		"body": "product.variants",
+		"description": "Theme object: product.variants (Shopify Liquid Template Snippets)"
+	}
+	
+	"Product Vendor": {
+		"prefix": "product.vendor",
+		"body": "product.vendor",
+		"description": "Theme object: product.vendor (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - SEARCH
+	"Search Performed": {
+		"prefix": "search.performed",
+		"body": "search.performed",
+		"description": "Theme object: search.performed (Shopify Liquid Template Snippets)"
+	}
+
+	"Search Results": {
+		"prefix": "search.results",
+		"body": "search.results",
+		"description": "Theme object: search.results (Shopify Liquid Template Snippets)"
+	}
+	
+	"Search Results Count": {
+		"prefix": "search.results_count",
+		"body": "search.results_count",
+		"description": "Theme object: search.results_count (Shopify Liquid Template Snippets)"
+	}
+	
+	"Search Terms": {
+		"prefix": "search.terms",
+		"body": "search.terms",
+		"description": "Theme object: search.terms (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - SHIPPING METHOD
+	"Shipping Method Handle": {
+		"prefix": "hipping_method.handle",
+		"body": "shipping_method.handle",
+		"description": "Theme object: shipping_method.handle (Shopify Liquid Template Snippets)"
+	}
+
+	"Shipping Method Price": {
+		"prefix": "shipping_method.price",
+		"body": "shipping_method.price",
+		"description": "Theme object: shipping_method.price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shipping Method Title": {
+		"prefix": "shipping_method.title",
+		"body": "shipping_method.title",
+		"description": "Theme object: shipping_method.title (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - SHOP
+	"Shop Address": {
+		"prefix": "shop.address",
+		"body": "shop.address",
+		"description": "Theme object: shop.address (Shopify Liquid Template Snippets)"
+	}
+
+	"Shop Collections Count": {
+		"prefix": "shop.collections_count",
+		"body": "shop.collections_count",
+		"description": "Theme object: shop.collections_count (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Currency": {
+		"prefix": "shop.currency",
+		"body": "shop.currency",
+		"description": "Theme object: shop.currency (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Description": {
+		"prefix": "shop.description",
+		"body": "shop.description",
+		"description": "Theme object: shop.description (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Domain": {
+		"prefix": "shop.domain",
+		"body": "shop.domain",
+		"description": "Theme object: shop.domain (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Email": {
+		"prefix": "shop.email",
+		"body": "shop.email",
+		"description": "Theme object: shop.email (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Enabled Payment Types": {
+		"prefix": "shop.enabled_payment_types",
+		"body": "shop.enabled_payment_types",
+		"description": "Theme object: shop.enabled_payment_types (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Metafields": {
+		"prefix": "shop.metafields",
+		"body": "shop.metafields",
+		"description": "Theme object: shop.metafields (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Money Format": {
+		"prefix": "shop.money_format",
+		"body": "shop.money_format",
+		"description": "Theme object: shop.money_format (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Money With Currency Format": {
+		"prefix": "shop.money_with_currency_format",
+		"body": "shop.money_with_currency_format",
+		"description": "Theme object: shop.money_with_currency_format (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Name": {
+		"prefix": "shop.name",
+		"body": "shop.name",
+		"description": "Theme object: shop.name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Password Message": {
+		"prefix": "shop.password_message",
+		"body": "shop.password_message",
+		"description": "Theme object: shop.password_message (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Permanent Domain": {
+		"prefix": "shop.permanent_domain",
+		"body": "shop.permanent_domain",
+		"description": "Theme object: shop.permanent_domain (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Products Count": {
+		"prefix": "shop.products_count",
+		"body": "shop.products_count",
+		"description": "Theme object: shop.products_count (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Types": {
+		"prefix": "shop.types",
+		"body": "shop.types",
+		"description": "Theme object: shop.types (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Url": {
+		"prefix": "shop.url",
+		"body": "shop.url",
+		"description": "Theme object: shop.url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Secure Url": {
+		"prefix": "shop.secure_url",
+		"body": "shop.secure_url",
+		"description": "Theme object: shop.secure_url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Vendors": {
+		"prefix": "shop.vendors",
+		"body": "shop.vendors",
+		"description": "Theme object: shop.vendors (Shopify Liquid Template Snippets)"
+	}
+	
+	"Shop Locale": {
+		"prefix": "shop.locale",
+		"body": "shop.locale",
+		"description": "Theme object: shop.locale (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - TABLE ROW
+	"Tablerow Length": {
+		"prefix": "tablerow.length",
+		"body": "tablerow.length",
+		"description": "Theme object: tablerow.length (Shopify Liquid Template Snippets)"
+	}
+
+	"Tablerow Index": {
+		"prefix": "tablerow.index",
+		"body": "tablerow.index",
+		"description": "Theme object: tablerow.index (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tablerow Index0": {
+		"prefix": "tablerow.index0",
+		"body": "tablerow.index0",
+		"description": "Theme object: tablerow.index0 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tablerow Rindex": {
+		"prefix": "tablerow.rindex",
+		"body": "tablerow.rindex",
+		"description": "Theme object: tablerow.rindex (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tablerow Rindex0": {
+		"prefix": "tablerow.rindex0",
+		"body": "tablerow.rindex0",
+		"description": "Theme object: tablerow.rindex0 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tablerow First": {
+		"prefix": "tablerow.first",
+		"body": "tablerow.first",
+		"description": "Theme object: tablerow.first (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tablerow Last": {
+		"prefix": "tablerow.last",
+		"body": "tablerow.last",
+		"description": "Theme object: tablerow.last (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tablerow Col": {
+		"prefix": "tablerow.col",
+		"body": "tablerow.col",
+		"description": "Theme object: tablerow.col (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tablerow Col0": {
+		"prefix": "tablerow.col0",
+		"body": "tablerow.col0",
+		"description": "Theme object: tablerow.col0 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tablerow Col First": {
+		"prefix": "tablerow.col_first",
+		"body": "tablerow.col_first",
+		"description": "Theme object: tablerow.col_first (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tablerow Col Last": {
+		"prefix": "tablerow.col_last",
+		"body": "tablerow.col_last",
+		"description": "Theme object: tablerow.col_last (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - TAX LINE
+	"Tax Line Title": {
+		"prefix": "tax_line.title",
+		"body": "tax_line.title",
+		"description": "Theme object: tax_line.title (Shopify Liquid Template Snippets)"
+	}
+
+	"Tax Line Price": {
+		"prefix": "tax_line.price",
+		"body": "tax_line.price",
+		"description": "Theme object: tax_line.price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tax Line Rate": {
+		"prefix": "tax_line.rate",
+		"body": "tax_line.rate",
+		"description": "Theme object: tax_line.rate (Shopify Liquid Template Snippets)"
+	}
+	
+	"Tax Line Rate Percentage": {
+		"prefix": "tax_line.rate_percentage",
+		"body": "tax_line.rate_percentage",
+		"description": "Theme object: tax_line.rate_percentage (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - THEME
+	"Theme Id": {
+		"prefix": "theme.id",
+		"body": "theme.id",
+		"description": "Theme object: theme.id (Shopify Liquid Template Snippets)"
+	}
+
+	"Theme Role": {
+		"prefix": "theme.role",
+		"body": "theme.role",
+		"description": "Theme object: theme.role (Shopify Liquid Template Snippets)"
+	}
+	
+	"Theme Name": {
+		"prefix": "theme.name",
+		"body": "theme.name",
+		"description": "Theme object: theme.name (Shopify Liquid Template Snippets)"
+	}
+
+
+// // // // // // OBJECTS - TRANSACTION
+	"Transaction Id": {
+		"prefix": "transaction.id",
+		"body": "transaction.id",
+		"description": "Theme object: transaction.id (Shopify Liquid Template Snippets)"
+	}
+
+	"Transaction Amount": {
+		"prefix": "transaction.amount",
+		"body": "transaction.amount",
+		"description": "Theme object: transaction.amount (Shopify Liquid Template Snippets)"
+	}
+	
+	"Transaction Name": {
+		"prefix": "transaction.name",
+		"body": "transaction.name",
+		"description": "Theme object: transaction.name (Shopify Liquid Template Snippets)"
+	}
+	
+	"Transaction Status": {
+		"prefix": "transaction.status",
+		"body": "transaction.status",
+		"description": "Theme object: transaction.status (Shopify Liquid Template Snippets)"
+	}
+	
+	"Transaction Status Label": {
+		"prefix": "transaction.status_label",
+		"body": "transaction.status_label",
+		"description": "Theme object: transaction.status_label (Shopify Liquid Template Snippets)"
+	}
+	
+	"Transaction Created At": {
+		"prefix": "transaction.created_at",
+		"body": "transaction.created_at",
+		"description": "Theme object: transaction.created_at (Shopify Liquid Template Snippets)"
+	}
+	
+	"Transaction Receipt": {
+		"prefix": "transaction.receipt",
+		"body": "transaction.receipt",
+		"description": "Theme object: transaction.receipt (Shopify Liquid Template Snippets)"
+	}
+	
+	"Transaction Kind": {
+		"prefix": "transaction.kind",
+		"body": "transaction.kind",
+		"description": "Theme object: transaction.kind (Shopify Liquid Template Snippets)"
+	}
+	
+	"Transaction Gateway": {
+		"prefix": "transaction.gateway",
+		"body": "transaction.gateway",
+		"description": "Theme object: transaction.gateway (Shopify Liquid Template Snippets)"
+	}
+	
+	"Transaction Payment Details": {
+		"prefix": "transaction.payment_details",
+		"body": "transaction.payment_details",
+		"description": "Theme object: transaction.payment_details (Shopify Liquid Template Snippets)"
+	}
+
+// // // // // // OBJECTS - VARIANT
+	"Variant Available": {
+		"prefix": "variant.available",
+		"body": "variant.available",
+		"description": "Theme object: variant.available (Shopify Liquid Template Snippets)"
+	}
+
+	"Variant Barcode": {
+		"prefix": "variant.barcode",
+		"body": "variant.barcode",
+		"description": "Theme object: variant.barcode (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Compare At Price": {
+		"prefix": "variant.compare_at_price",
+		"body": "variant.compare_at_price",
+		"description": "Theme object: variant.compare_at_price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Id": {
+		"prefix": "variant.id",
+		"body": "variant.id",
+		"description": "Theme object: variant.id (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Image": {
+		"prefix": "variant.image",
+		"body": "variant.image",
+		"description": "Theme object: variant.image (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Inventory Management": {
+		"prefix": "variant.inventory_management",
+		"body": "variant.inventory_management",
+		"description": "Theme object: variant.inventory_management (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Inventory Policy": {
+		"prefix": "variant.inventory_policy",
+		"body": "variant.inventory_policy",
+		"description": "Theme object: variant.inventory_policy (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Inventory Quantity": {
+		"prefix": "variant.inventory_quantity",
+		"body": "variant.inventory_quantity",
+		"description": "Theme object: variant.inventory_quantity (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Option1": {
+		"prefix": "variant.option1",
+		"body": "variant.option1",
+		"description": "Theme object: variant.option1 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Option2": {
+		"prefix": "variant.option2",
+		"body": "variant.option2",
+		"description": "Theme object: variant.option2 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Option3": {
+		"prefix": "variant.option3",
+		"body": "variant.option3",
+		"description": "Theme object: variant.option3 (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Price": {
+		"prefix": "variant.price",
+		"body": "variant.price",
+		"description": "Theme object: variant.price (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Requires Shipping": {
+		"prefix": "variant.requires_shipping",
+		"body": "variant.requires_shipping",
+		"description": "Theme object: variant.requires_shipping (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Selected": {
+		"prefix": "variant.selected",
+		"body": "variant.selected",
+		"description": "Theme object: variant.selected (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Sku": {
+		"prefix": "variant.sku",
+		"body": "variant.sku",
+		"description": "Theme object: variant.sku (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Taxable": {
+		"prefix": "variant.taxable",
+		"body": "variant.taxable",
+		"description": "Theme object: variant.taxable (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Title": {
+		"prefix": "variant.title",
+		"body": "variant.title",
+		"description": "Theme object: variant.title (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Url": {
+		"prefix": "variant.url",
+		"body": "variant.url",
+		"description": "Theme object: variant.url (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Weight": {
+		"prefix": "variant.weight",
+		"body": "variant.weight",
+		"description": "Theme object: variant.weight (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Weight Unit": {
+		"prefix": "variant.weight_unit",
+		"body": "variant.weight_unit",
+		"description": "Theme object: variant.weight_unit (Shopify Liquid Template Snippets)"
+	}
+	
+	"Variant Weight In Unit": {
+		"prefix": "variant.weight_in_unit",
+		"body": "variant.weight_in_unit",
+		"description": "Theme object: variant.weight_in_unit (Shopify Liquid Template Snippets)"
+	}
+
+
+
+}
